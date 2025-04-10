@@ -16,6 +16,8 @@ public class TC_001_verify_user_is_able_to_add_address_or_not_Test extends Base_
 	
 	public void addAddress() throws InterruptedException, EncryptedDocumentException, IOException {
 		
+		System.out.println("Poll SCM");
+		
 		homePage.getAccountSettingBtn().click();
 		homePage.getMyProfileBtn().click();
 		
